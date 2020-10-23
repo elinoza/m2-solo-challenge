@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color:rgb(216,216,216)
+;
+}
+.top-band{
+    border-top:  ridge 5px purple ;
+
+}
+
+#gog-logo{
+    width:34px;
+    height:31px;
+    background-color: white
+    }
+
+
+.navbar a{
+    color:#ccc
+}
+
+.navbar{
+    height:54px;
+    font-size :14px;
+}
+
+nav i {
+    color: #ccc;
+    font-size: 12px;   
+
+}
+
+nav i::after{ content:" 0";
+    
+ }
+ 
+
+
+
+bg-gog{ 
+    background-color:rgb(44,44,44) }
