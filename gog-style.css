@@ -1,56 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-
-
-body{
-    font-family: 'Lato', sans-serif;
-    background-color:rgb(216,216,216)
-;
-}
-.top-band{
-    border-top:  ridge 5px purple ;
-
+body {
+  font-family: "Lato", sans-serif;
+  background-color: rgb(216, 216, 216);
 }
 
-#gog-logo{
-    width:34px;
-    height:31px;
-    background-color: white
-    }
+#top-band {
+  background-image: url(https://menu-static.gog-statics.com/assets/img/bg.jpg);
+  height: 5px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 999;
+}
+#top-band2 {
+  position: fixed;
+  height: 5px;
 
-
-.navbar a{
-    color:#ccc
+  top: 5px;
+  right: 0px;
+  left: 0px;
+  z-index: 998;
 }
 
-.navbar{
-    height:54px;
-    font-size :14px;
+#gog-logo {
+  width: 34px;
+  height: 31px;
+  background-color: white;
+}
+
+.navbar a {
+  color: #ccc;
+}
+
+.navbar {
+  height: 54px;
+  font-size: 14px;
+  position: fixed;
+  top: 5px;
+  right: 0px;
+  left: 0px;
+  z-index: 999;
 }
 
 nav i {
-    color: #ccc;
-    font-size: 12px;   
-
+  color: #ccc;
+  font-size: 12px;
 }
 
-nav i::after{ content:" 0";
-    
- }
- 
- .carousel-control-icon-new{
-     font-size:40px;
-     color:rgb(97,97,97);
-      
- }
+nav i::after {
+  content: " 0";
+}
 
- .carousel-indicators {
-     bottom:-50px;
- }
- .carousel-indicators li {
-     background-color:gray;}
+.carousel-control-icon-new {
+  font-size: 40px;
+  color: rgb(97, 97, 97);
+}
 
+.carousel-indicators {
+  bottom: -50px;
+}
+.carousel-indicators li {
+  background-color: gray;
+}
 
+.col {
+  padding-right: 5px;
+  padding-left: 5px;
+  min-height: 10vh;
+}
 
-.bg-gog{ 
-    background-color:rgb(44,44,44) }
+.card-img-top {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+.card-body {
+  height: 20vh;
+  font-size: 12px;
+}
+.card-body h5 .badge {
+  background-color: purple;
+}
+
+.card-body i {
+  font-size: 10px;
+  color: gray;
+}
+
+div.divider a:link {
+  color: purple;
+}
+
+#galaxy {
+  color: purple;
+}
+
+#line {
+  border-left: solid 1px gray;
+}
+
+.morta {
+  background-image: url(https://static3.srcdn.com/wordpress/wp-content/uploads/2019/09/Children-of-Morta-Review-Logo.jpg?q=50&fit=crop&w=960&h=500);
+  position: center;
+}
+
+.bg-gog {
+  background-color: rgb(44, 44, 44);
+}
