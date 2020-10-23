@@ -38,8 +38,19 @@ nav i::after{ content:" 0";
     
  }
  
+ .carousel-control-icon-new{
+     font-size:40px;
+     color:rgb(97,97,97);
+      
+ }
 
+ .carousel-indicators {
+     bottom:-50px;
+ }
+ .carousel-indicators li {
+     background-color:gray;}
 
+#highligter
 
-bg-gog{ 
+.bg-gog{ 
     background-color:rgb(44,44,44) }
