@@ -117,7 +117,7 @@ div.tabs ul.nav a.nav-link{
   color:gray
 }
 
-div.tabs ul.nav a:active{
+div.tabs ul.nav .nav-link:active{
   color:purple;
   border-bottom:solid 1px purple;
 }
