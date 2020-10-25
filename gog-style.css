@@ -66,11 +66,9 @@ nav i::after {
   background-color: gray;
 }
 
- .col {
-  padding-right: 5px;
-  padding-left: 5px;
-  min-height: 10vh;
-  
+ .card {min-width:100px;
+margin-bottom:5px;
+ 
 }
 
 div.first-row  .card-img-top {
